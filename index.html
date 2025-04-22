@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My H5P Content</title>
+  <link rel="stylesheet" href="h5p-core/styles/h5p.css">
+  <script src="h5p-core/js/h5p.js"></script>
+</head>
+<body>
+  <div class="h5p-content" data-content-path="content"></div>
+
+  <script>
+    H5PIntegration = {
+      baseUrl: ".",
+      url: "./",
+      contents: {
+        "cid-1": {
+          contentUrl: "content"
+        }
+      },
+    };
+    H5P.init();
+  </script>
+</body>
+</html>
