@@ -3,23 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>My H5P Content</title>
+
+  <!-- H5P styles -->
   <link rel="stylesheet" href="h5p-core/styles/h5p.css">
-  <script src="h5p-core/js/h5p.js"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .h5p-content {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div class="h5p-content" data-content-path="content"></div>
+
+  <h1>My H5P Content</h1>
+  <div class="h5p-content" id="h5p-container"></div>
+
+  <!-- H5P JavaScript -->
+  <script src="h5p-core/js/h5p.js"></script>
 
   <script>
-    H5PIntegration = {
-      baseUrl: ".",
-      url: "./",
-      contents: {
-        "cid-1": {
-          contentUrl: "content"
+    window.addEventListener('load', function () {
+      H5PIntegration = {
+        baseUrl: ".",
+        url: "./",
+        contents: {
+          "cid-1": {
+            contentUrl: "content"
+          }
         }
-      },
-    };
-    H5P.init();
+      };
+
+      H5P.init(document.getElementById('h5p-container'));
+    });
   </script>
 </body>
 </html>
