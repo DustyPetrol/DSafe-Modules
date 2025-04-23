@@ -13,7 +13,6 @@
     "close": "Cerrar",
     "imageAltLabel": "Texto alternativo",
     "imageTitleLabel": "Texto al pasar ratón encima",
-    "pleaseConfirm": "Por favor confirmar",
-    "metadata": "Metadata settings"
+    "pleaseConfirm": "Por favor confirmar"
   }
 }

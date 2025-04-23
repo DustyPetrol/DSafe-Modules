@@ -13,7 +13,6 @@
     "close": "Tancar[close]",
     "imageAltLabel": "Text alternatiu",
     "imageTitleLabel": "Text que es mostra en passar el cursor per sobre",
-    "pleaseConfirm": "Please confirm",
-    "metadata": "Metadata settings"
+    "pleaseConfirm": "Please confirm"
   }
 }
