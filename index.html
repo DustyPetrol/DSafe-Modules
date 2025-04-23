@@ -28,6 +28,29 @@
     <option value="printing-process">3D Printing Process</option>
     <!-- Add more options as needed -->
   </select>
+<script>
+  window.H5PIntegration = {
+    baseUrl: ".",
+    url: "",
+    postUserStatistics: false,
+    ajax: {
+      setFinished: "",
+      contentUserData: ""
+    },
+    saveFreq: false,
+    user: { name: "Anonymous" },
+    siteUrl: ".",
+    l10n: {
+      H5P: {
+        fullscreen: "Fullscreen",
+        disableFullscreen: "Disable fullscreen"
+      }
+    },
+    hubIsEnabled: false,
+    reportingIsEnabled: false,
+    crossorigin: "anonymous"
+  };
+</script>
 
   <div id="h5p-container"></div>
 
