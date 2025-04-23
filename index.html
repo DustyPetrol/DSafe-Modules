@@ -2,17 +2,19 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>H5P Standalone Example</title>
+  <title>My H5P Player</title>
   <link rel="stylesheet" href="./dist/styles/h5p.css">
 </head>
 <body>
+  <h1>3D Printing Basics</h1>
   <div id="h5p-container"></div>
 
   <script src="./dist/main.bundle.js"></script>
   <script>
     const { H5P } = H5PStandalone;
+
     new H5P(document.getElementById('h5p-container'), {
-      h5pJsonPath: 'h5p-folder',
+      h5pJsonPath: './h5p-content',
       frameJs: './dist/frame.bundle.js',
       frameCss: './dist/styles/h5p.css'
     });
