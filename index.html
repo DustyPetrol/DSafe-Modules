@@ -1,48 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Multi-H5P Viewer</title>
-  <link rel="stylesheet" href="./dist/styles/h5p.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>H5P Multi-Loader</title>
+  <link rel="stylesheet" href="dist/styles/h5p.css">
   <style>
-    body { font-family: sans-serif; padding: 2rem; }
-    select { font-size: 1rem; padding: 0.5rem; margin-bottom: 1rem; }
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+    }
+    #h5p-container {
+      margin-top: 2rem;
+    }
+    select {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Interactive Content Viewer</h1>
-  <label for="h5p-select">Choose content:</label>
-  <select id="h5p-select">
-    <option value="printing-basics">3D Printing Basics</option>
-    <option value="printing-process">3D Printing process</option>
+
+  <h1>Choose a Module</h1>
+
+  <select id="h5pSelector">
+    <option value="printing-basics">Additive Manufacturing Basics</option>
+    <option value="printing-process">3D Printing Process</option>
+    <!-- Add more options as needed -->
   </select>
 
-  <div id="h5p-container" style="margin-top: 2rem;"></div>
+  <div id="h5p-container"></div>
 
-  <script src="./dist/main.bundle.js"></script>
+  <script src="dist/frame.bundle.js"></script>
   <script>
-    const select = document.getElementById('h5p-select');
     const container = document.getElementById('h5p-container');
-    let currentPlayer = null;
+    const selector = document.getElementById('h5pSelector');
 
     function loadH5P(slug) {
-      container.innerHTML = ''; // Clear previous content
-      const { H5P } = H5PStandalone;
-
-      currentPlayer = new H5P(container, {
-        h5pJsonPath: `./h5ps/${slug}`,
-        frameJs: './dist/frame.bundle.js',
-        frameCss: './dist/styles/h5p.css'
+      container.innerHTML = ''; // Clear previous
+      new H5PStandalone.H5P(container, {
+        h5pJsonPath: `h5ps/${slug}`,       // ✅ This points to the folder with h5p.json and libraries/
+        frameJs: 'dist/frame.bundle.js',
+        frameCss: 'dist/styles/h5p.css'
       });
     }
 
-    // Load the first one on startup
-    loadH5P(select.value);
-
-    // Change content when dropdown changes
-    select.addEventListener('change', () => {
-      loadH5P(select.value);
+    selector.addEventListener('change', () => {
+      loadH5P(selector.value);
     });
+
+    // Auto-load first H5P
+    loadH5P(selector.value);
   </script>
+
 </body>
 </html>
