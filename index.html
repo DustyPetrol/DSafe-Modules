@@ -24,10 +24,10 @@
     const select = document.getElementById('h5p-select');
     const container = document.getElementById('h5p-container');
     let currentPlayer = null;
-
+    const { H5P } = H5PStandalone;
     function loadH5P(slug) {
       container.innerHTML = ''; // Clear previous content
-      const { H5P } = H5PStandalone;
+     
 
       currentPlayer = new H5P(container, {
         h5pJsonPath: `./h5ps/${slug}`,
