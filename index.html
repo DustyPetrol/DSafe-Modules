@@ -21,28 +21,26 @@
 
   <script src="./dist/main.bundle.js"></script>
   <script>
-    const select = document.getElementById('h5p-select');
+  window.onload = function () {
     const container = document.getElementById('h5p-container');
-    let currentPlayer = null;
+    const selector = document.getElementById('h5pSelector');
 
     function loadH5P(slug) {
-      container.innerHTML = ''; // Clear previous content
-      const { H5P } = H5PStandalone;
-
-      currentPlayer = new H5P(container, {
-        h5pJsonPath: `./h5ps/${slug}`,
-        frameJs: './dist/frame.bundle.js',
-        frameCss: './dist/styles/h5p.css'
+      container.innerHTML = '';
+      new H5PStandalone.H5P(container, {
+        h5pJsonPath: `h5ps/${slug}`,
+        frameJs: 'dist/frame.bundle.js',
+        frameCss: 'dist/styles/h5p.css'
       });
     }
 
-    // Load the first one on startup
-    loadH5P(select.value);
-
-    // Change content when dropdown changes
-    select.addEventListener('change', () => {
-      loadH5P(select.value);
+    selector.addEventListener('change', () => {
+      loadH5P(selector.value);
     });
-  </script>
+
+    // Load the first module on page load
+    loadH5P(selector.value);
+  };
+</script>
 </body>
 </html>
