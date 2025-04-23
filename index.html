@@ -60,14 +60,13 @@
   <script src="dist/frame.bundle.js"></script>
 
   <script>
-  window.onload = function () {
     const container = document.getElementById('h5p-container');
     const selector = document.getElementById('h5pSelector');
 
     function loadH5P(slug) {
-      container.innerHTML = '';
+      container.innerHTML = ''; // Clear previous content
       new H5PStandalone.H5P(container, {
-        h5pJsonPath: `h5ps/${slug}`,
+        h5pJsonPath: `h5ps/${slug}`, // ✅ your folder structure must match this
         frameJs: 'dist/frame.bundle.js',
         frameCss: 'dist/styles/h5p.css'
       });
@@ -77,10 +76,9 @@
       loadH5P(selector.value);
     });
 
-    // Load the first module on page load
+    // Load the first one by default
     loadH5P(selector.value);
-  };
-</script>
+  </script>
 
 </body>
 </html>
