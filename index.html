@@ -2,21 +2,47 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My H5P Player</title>
+  <title>Multi-H5P Viewer</title>
   <link rel="stylesheet" href="./dist/styles/h5p.css">
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    select { font-size: 1rem; padding: 0.5rem; margin-bottom: 1rem; }
+  </style>
 </head>
 <body>
-  <h1>3D Printing Basics</h1>
-  <div id="h5p-container"></div>
+  <h1>Interactive Content Viewer</h1>
+  <label for="h5p-select">Choose content:</label>
+  <select id="h5p-select">
+    <option value="printing-basics">3D Printing Basics</option>
+    <option value="cnc-overview">CNC Overview</option>
+    <option value="laser-cutting">Laser Cutting</option>
+  </select>
+
+  <div id="h5p-container" style="margin-top: 2rem;"></div>
 
   <script src="./dist/main.bundle.js"></script>
   <script>
-    const { H5P } = H5PStandalone;
+    const select = document.getElementById('h5p-select');
+    const container = document.getElementById('h5p-container');
+    let currentPlayer = null;
 
-    new H5P(document.getElementById('h5p-container'), {
-      h5pJsonPath: './h5p-content',
-      frameJs: './dist/frame.bundle.js',
-      frameCss: './dist/styles/h5p.css'
+    function loadH5P(slug) {
+      container.innerHTML = ''; // Clear previous content
+      const { H5P } = H5PStandalone;
+
+      currentPlayer = new H5P(container, {
+        h5pJsonPath: `./h5ps/${slug}`,
+        frameJs: './dist/frame.bundle.js',
+        frameCss: './dist/styles/h5p.css'
+      });
+    }
+
+    // Load the first one on startup
+    loadH5P(select.value);
+
+    // Change content when dropdown changes
+    select.addEventListener('change', () => {
+      loadH5P(select.value);
     });
   </script>
 </body>
