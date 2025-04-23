@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>H5P Multi-Loader</title>
+  <title>H5P Multi-Viewer</title>
   <link rel="stylesheet" href="dist/styles/h5p.css">
   <style>
     body {
       font-family: sans-serif;
       margin: 2rem;
+      background: #f9f9f9;
     }
     #h5p-container {
       margin-top: 2rem;
@@ -21,49 +22,51 @@
 </head>
 <body>
 
-  <h1>Choose a Module</h1>
+  <h1>🧠 Choose a Module</h1>
 
   <select id="h5pSelector">
     <option value="printing-basics">Additive Manufacturing Basics</option>
     <option value="printing-process">3D Printing Process</option>
-    <!-- Add more options as needed -->
+    <!-- Add more H5Ps as needed -->
   </select>
 
   <div id="h5p-container"></div>
 
+  <!-- Stub required by frame.bundle.js -->
   <script>
-  window.H5PIntegration = {
-    baseUrl: ".",
-    url: "",
-    postUserStatistics: false,
-    ajax: {
-      setFinished: "",
-      contentUserData: ""
-    },
-    saveFreq: false,
-    user: { name: "Anonymous" },
-    siteUrl: ".",
-    l10n: {
-      H5P: {
-        fullscreen: "Fullscreen",
-        disableFullscreen: "Disable fullscreen"
-      }
-    },
-    hubIsEnabled: false,
-    reportingIsEnabled: false,
-    crossorigin: "anonymous"
-  };
-</script>
+    window.H5PIntegration = {
+      baseUrl: ".",
+      url: "",
+      postUserStatistics: false,
+      ajax: { setFinished: "", contentUserData: "" },
+      saveFreq: false,
+      user: { name: "Anonymous" },
+      siteUrl: ".",
+      l10n: {
+        H5P: {
+          fullscreen: "Fullscreen",
+          disableFullscreen: "Disable fullscreen"
+        }
+      },
+      hubIsEnabled: false,
+      reportingIsEnabled: false,
+      crossorigin: "anonymous"
+    };
+  </script>
 
+  <!-- Load H5P player core -->
+  <script src="https://unpkg.com/h5p-standalone@1.3.4/dist/main.bundle.js"></script>
+  <!-- Visual styling -->
   <script src="dist/frame.bundle.js"></script>
+
   <script>
     const container = document.getElementById('h5p-container');
     const selector = document.getElementById('h5pSelector');
 
     function loadH5P(slug) {
-      container.innerHTML = ''; // Clear previous
+      container.innerHTML = ''; // Clear previous content
       new H5PStandalone.H5P(container, {
-        h5pJsonPath: `h5ps/${slug}`,       // ✅ This points to the folder with h5p.json and libraries/
+        h5pJsonPath: `h5ps/${slug}`, // ✅ your folder structure must match this
         frameJs: 'dist/frame.bundle.js',
         frameCss: 'dist/styles/h5p.css'
       });
@@ -73,7 +76,7 @@
       loadH5P(selector.value);
     });
 
-    // Auto-load first H5P
+    // Load the first one by default
     loadH5P(selector.value);
   </script>
 
