@@ -1,0 +1,1457 @@
+{
+  "showCoverPage": false,
+  "bookCover": {
+    "coverDescription": "<p style=\"text-align:center\"></p>"
+  },
+  "chapters": [
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "params": {
+                "text": "<h2>Grundlagen der additiven Fertigung (3D-Druck)</h2>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "10b7da0b-6466-497f-9daf-78b77a2f4692"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-2O29mOKy.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 1091,
+                  "height": 820
+                },
+                "alt": "eary-ahh 3D-Druck"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "eary-ahh 3D-Druck",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "82c18d06-f66b-47a9-b6f8-5c24c96b2d70"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Mit diesem kurzen Kurs beginnen Sie Ihre Rapid-Prototyping-Reise oder aktualisieren Ihr vorhandenes Wissen.</p><p>Um diesen Kurs zu bestehen und ein Abzeichen zu erhalten, müssen Sie alle Fragen in diesem Kurs und im nachfolgenden Sicherheitsfragebogen richtig beantworten.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Grundlagen der additiven Fertigung (3D-Druck)",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "81834f65-cb42-48ab-9405-18e1a7b3b82f"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.18",
+      "metadata": {
+        "contentType": "Column",
+        "license": "U",
+        "title": "Grundlagen der additiven Fertigung (3D-Druck)",
+        "authors": [],
+        "changes": [],
+        "extraTitle": "Additive Manufacturing (3D Printing) Basics"
+      },
+      "subContentId": "8fc0ebdb-9327-4444-81de-282040c50786"
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "params": {
+                "text": "<h2>Was ist additive Fertigung/3D-Druck/Rapid Prototiping/usw.?</h2>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "5dc052ca-f713-434e-8762-4e942ea0f2ee"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-YMxtTJaJ.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 1092,
+                  "height": 822
+                },
+                "alt": "3D-Drucker und Dinge, die darauf gedruckt sind"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "3D-Drucker und Dinge, die darauf gedruckt sind",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "2c40444f-bc15-4a06-9ae9-3f4d3ca9f88d"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Additive Fertigung ist der formalisierte Begriff für das, was früher Rapid Prototyping genannt wurde und was im Volksmund 3D-Druck genannt wird.</p><p>Der Schlüssel zur Funktionsweise von AM besteht darin, dass Teile durch Hinzufügen von Material in Schichten hergestellt werden. Jede Schicht ist ein dünner Querschnitt des Teils, der aus den ursprünglichen CAD-Daten abgeleitet wurde. Offensichtlich muss in der physikalischen Welt jede Schicht eine endliche Dicke aufweisen, so dass der resultierende Teil eine Annäherung an die ursprünglichen Daten ist, wie in Abb. 1.1 dargestellt. Je dünner jede Schicht ist, desto näher ist das letzte Teil am Original.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Was ist additive Fertigung/3D-Druck/Rapid Prototiping/usw.?",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "370a04dc-5324-4877-a663-657f8d479522"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-jugB6J97.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 701,
+                  "height": 407
+                },
+                "alt": "Abb. 1.1 CAD-Bild einer Teetasse mit weiteren Bildern, die die Auswirkungen des Bauens mit unterschiedlichen Schichtdicken zeigen",
+                "title": "Abb. 1.1 CAD-Bild einer Teetasse mit weiteren Bildern, die die Auswirkungen des Bauens mit unterschiedlichen Schichtdicken zeigen"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "CAD-Bild einer Teetasse",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "6340e04e-a2cf-44ff-a77b-b98aa2680640"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Abb. 1.1</strong>CAD-Bild einer Teetasse mit weiteren Bildern, die die Auswirkungen des Bauens mit unterschiedlichen Schichtdicken zeigen</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "CAD-Bild einer Teetasse",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "151d7988-7012-4fe4-a954-2b82d757eaaa"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.18",
+      "metadata": {
+        "contentType": "Column",
+        "license": "U",
+        "title": "Was ist additive Fertigung/3D-Druck/Rapid Prototyping/usw.?",
+        "authors": [],
+        "changes": [],
+        "extraTitle": "What is Additive Manufacturing/3D Printing/Rapid Prototyping/etc?"
+      },
+      "subContentId": "856da130-a3ee-419e-9b22-2aa64b390b8c"
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "useSeparator": "auto",
+            "content": {
+              "params": {
+                "text": "<h2>Arten von 3D-Druckern</h2>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "8c077fca-4cad-446b-8908-7e72fe3769c4"
+            }
+          },
+          {
+            "content": {
+              "params": {
+                "panels": [
+                  {
+                    "content": {
+                      "params": {
+                        "text": "<p>AKA Filament Freeform Fabrication (FFF)</p><p>AKA Fused Deposition Modeling (FDM)</p><p>AKA Abscheidung von geschmolzenem Polymer (MPD)</p><p>AKA THERMOPLAST-EXTRUSION</p><p>AKA Fused Filament Method (FFM)</p><p>AKA Plastic Jet Printing (PJP)</p><p>AKA Materialextrusion (MEX)</p>"
+                      },
+                      "library": "H5P.AdvancedText 1.1",
+                      "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Unbenannter Text",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "0464374d-f2a6-4077-aba6-cafa409f4510"
+                    },
+                    "title": "Schmelzfadenherstellung (FFF)"
+                  }
+                ],
+                "hTag": "h2"
+              },
+              "library": "H5P.Accordion 1.0",
+              "metadata": {
+                "contentType": "Accordion",
+                "license": "U",
+                "title": "Namen der FFF",
+                "authors": [],
+                "changes": [],
+                "extraTitle": "Names of FFF"
+              },
+              "subContentId": "1416c398-3cd2-4d71-9204-fa0c6dce3689"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Allein nach der Anzahl der Namen (sowie der Anzahl der Maschinen) zu urteilen, kann man mit Sicherheit sagen, dass diese Methode zu den beliebtesten und einfachsten gehört. Entwickelt im Jahr 1988 und mit Ablauf des Patents im Jahr 2009 wurden die Drucker um Größenordnungen billiger oder sogar DIY und Open-Source.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "FFF",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "77131d04-f689-474d-a40f-32c32f6b324a"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-gmU23N6k.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 1280,
+                  "height": 720
+                },
+                "alt": "Schema eines Direktantriebsextruders."
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Schema eines Direktantriebsextruders.",
+                "authors": [],
+                "changes": [],
+                "source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/3D_Printer_Extruder.png"
+              },
+              "subContentId": "07e739ab-71d8-4ce2-baf0-5ab38f0a86e2"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Es druckt, indem es das Baumaterial (Füllmaterial) durch eine beheizte Düse schiebt, wobei sich die Drucke beim Abkühlen verfestigen und verbinden.</p><p>Stoffe umfassen:</p><p>PLA<span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Polymilchsäure (Extrudiertemperaturen um 180 °C), das im Labor am häufigsten vorkommende Material für den 3D-Druck, ist ein Biopolymer-Kunststoff, der aus Maisstärke oder Zuckerrohr gewonnen wird. Es ist ein zäher Kunststoff, wenn er abgekühlt ist, wenn auch ein wenig auf der brüchigen Seite.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0)\">Filaflex</span><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">(Strangpresstemperaturen um</span><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0)\">240 ° C</span><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">)</span><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0)\">Das Material besteht aus TPE und einigen Additiven, um es für den 3D-Druck druckbar zu machen. Filaflex hat eine unglaubliche Elastizität.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(105,105,105)\">Nylon oder Polyamid</span><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">(Strangpresstemperaturen um</span><span style=\"background-color:rgb(255,255,255);color:rgb(0,0,0)\">250 °C</span><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">)</span><span style=\"background-color:rgb(255,255,255);color:rgb(105,105,105)\">ist ein beliebtes Material in der Kunststoffindustrie, das für seine Zähigkeit und Flexibilität bekannt ist.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Meterials für FFF",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "c76477d6-f032-4808-9754-efc46665bb0b"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Selektives Lasersintern (SLS)</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Selektives Lasersintern (SLS) Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "09d5efc1-dd16-4183-99ac-44ca49fbebf3"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-djH3G0Xr.jpg",
+                  "mime": "image/jpeg",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 4624,
+                  "height": 3468
+                },
+                "alt": "Lisa Pro"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Lisa Pro",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "d98c528d-2fa1-426c-b612-e52c6fe64400"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Selektives Lasersintern</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">(</span><strong>SLS</strong><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">) ist ein</span>Additive Fertigung<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">(AM) -Technik, die eine</span>Laser<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">als Strom- und Wärmequelle, um</span>Brennen<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">pulverförmiges Material (typischerweise</span>Nylon<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">oder</span>Polyamid<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">), Ausrichtung des Lasers</span>automatisch<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">an Punkten im Raum, die durch eine</span>3D-Modell<span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">und binden das Material zusammen, um eine feste Struktur zu schaffen.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">Im Allgemeinen bietet SLS steifere, glattere Drucke und da das Objekt in Pulver suspendiert ist, sind keine unterstützenden Strukturen erforderlich.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,34)\">Aufgrund von Komplikationen, die beim Arbeiten mit großen Mengen eines sehr feinen Pulvers auftreten und der Tatsache, dass nach dem Befüllen des Beckens nur 40% des Pulvers recycelt werden können, wird es nicht häufig verwendet.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Selektives Lasersintern (SLS)",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "39b90dff-4ec3-40ce-95fb-261be4ae5c83"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-eg3Xh5cX.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 399,
+                  "height": 331
+                },
+                "alt": "SLS-Schema"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "SLS",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "fcca197d-de70-4bbf-9eb7-1b9b7baae340"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>1</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Laser</span></p><p><strong>2</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Scannersystem</span></p><p><strong>3</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Pulverabgabesystem</span></p><p><strong>4</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Pulverabgabekolben</span></p><p><strong>5</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Rollen</span></p><p><strong>6</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">FERTIGUNGSKOLBEN</span></p><p><strong>7</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Herstellung Pulverbett</span></p><p><strong>8</strong><span style=\"background-color:rgb(248,249,250);color:rgb(32,33,34)\">Gegenstand, der hergestellt wird</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "SLS für scheeme",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "4e9b056e-d902-4440-a935-bfd9d0ac3ee9"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.18",
+      "metadata": {
+        "contentType": "Column",
+        "license": "U",
+        "title": "Arten von 3D-Druckern und Materialien im Labor",
+        "authors": [],
+        "changes": [],
+        "extraTitle": "Types of 3D Printers and materials in the lab"
+      },
+      "subContentId": "6aa5acb7-f1e8-4a7f-a1b4-e34593f5f941"
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "params": {
+                "text": "<h2>3D-Druckerteile</h2>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "c211eb3c-aa4d-4ad2-a5db-9ca38e064ae8"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-lXvXuhv4.jpg",
+                  "mime": "image/jpeg",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 600,
+                  "height": 574
+                },
+                "alt": "3D-Druckerteile"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "3D-Druckerteile",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "03aa75ef-8504-4616-8d42-b6b1f795e7cc"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Kartesischer Roboter</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Kartesischer Robotertitel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "5dbb06db-2043-465d-9c46-8bdbd3c9c383"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Zentral für einen 3D-Drucker ist die Idee eines kartesischen Roboters.<span style=\"background-color:rgba(231,243,248,1)\">Dies ist eine Maschine, die sich in drei linearen Richtungen bewegen kann</span>, entlang der x-, y- und z-Achse, auch kartesische Koordinaten genannt. Um dies zu tun, müssen diese<span style=\"background-color:rgba(231,243,248,1)\">3D-Drucker verwenden kleine Schrittmotoren, die sich mit großer Präzision und Genauigkeit bewegen lassen</span>- in der Regel 1,8 Grad pro Schritt, was sich in Auflösungen im<span style=\"background-color:rgba(231,243,248,1)\">bruchteile eines Millimeters</span>durch die einzigartige Art und Weise, wie diese Schrittmotoren gesteuert werden. Der dreiachsige Roboter ist wie jeder andere computergesteuerte (CNC-) Roboter und kann seinen thermoplastischen Extruder entlang jeder dieser linearen Bewegungsachsen positionieren, um Schicht auf Schicht aus heißem Kunststoff abzulegen</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Kartesischer Roboter",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "80bb0426-b3c0-4469-a684-42bdd7960500"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Thermoplastextruder</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Thermoplastischer Extruder Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "e2900c0f-e09b-48a4-9947-e62612433460"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "collage": {
+                  "template": "2-1",
+                  "options": {
+                    "heightRatio": "1.35",
+                    "spacing": "0.3",
+                    "frame": true
+                  },
+                  "clips": [
+                    {
+                      "image": {
+                        "height": 3468,
+                        "mime": "image/jpeg",
+                        "path": "images/image-CX5PIM8w.jpg",
+                        "width": 4624,
+                        "copyright": {
+                          "license": "U"
+                        }
+                      },
+                      "scale": 1.8000000000000007,
+                      "offset": {
+                        "left": -45.49176090468497,
+                        "top": 0
+                      },
+                      "alt": "Abziehvorrichtung"
+                    },
+                    {
+                      "image": {
+                        "height": 365,
+                        "mime": "image/png",
+                        "path": "images/image-Ko7jgslG.png",
+                        "width": 330,
+                        "copyright": {
+                          "license": "U"
+                        }
+                      },
+                      "scale": 1,
+                      "offset": {
+                        "left": -13.5702746365105,
+                        "top": 0
+                      },
+                      "alt": "Abziehvorrichtung"
+                    },
+                    {
+                      "image": {
+                        "height": 3468,
+                        "mime": "image/jpeg",
+                        "path": "images/image-swPaAGjw.jpg",
+                        "width": 4624,
+                        "copyright": {
+                          "license": "U"
+                        }
+                      },
+                      "scale": 1,
+                      "offset": {
+                        "left": 0,
+                        "top": 0
+                      },
+                      "alt": "Abziehvorrichtung"
+                    }
+                  ]
+                }
+              },
+              "library": "H5P.Collage 0.3",
+              "metadata": {
+                "contentType": "Collage",
+                "license": "U",
+                "title": "Thermoplastextruder",
+                "authors": [],
+                "changes": [],
+                "extraTitle": "Thermoplastic Extruder"
+              },
+              "subContentId": "2331d305-c8f5-4405-a241-0da1d7c8ab41"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Mit unserem kartesischen System, das eine genaue lineare Positionierung ermöglicht, benötigen wir einen Extruder, der in der Lage ist, dünne Stränge aus Thermoplast abzulegen - eine Art von Kunststoff, der beim Erhitzen in einen halbflüssigen Zustand erweicht. Der Extruder, wohl der komplexeste Teil eines 3D-Druckers, der noch eine intensive Entwicklung durchläuft, ist eigentlich die Verbindung zweier Schlüsselelemente:<strong>filamentantrieb</strong>und<strong>thermisches heißes Ende.</strong></p><p><strong>Der Filamentantrieb</strong>zum Einziehen von Kunststofffilamenten, die oft in Spulen mit Filamenten mit einem Durchmesser von 3 mm oder 1,75mm gebündelt sind, mithilfe eines Getriebetreibers. Die meisten, wenn nicht alle modernen Filamenttreiber verwenden einen Schrittmotor, um den Kunststofffluss in das heiße Ende besser zu steuern. Diese Motoren sind oft mit gedruckten Zahnrädern oder einem integrierten Getriebe ausgestattet, um dem Filamenttreiber die für die weitere Extrusion erforderliche Festigkeit zu verleihen.</p><p>Das Filament wird dann, nachdem es vom Filamenttreiber in den Extruder gezogen wurde,<strong>die Heizkammer</strong>oder<strong>heißes Ende.</strong> The hot end usually is thermally insulated from the rest of the extruder and is made up of either a large block of aluminum with an embedded heater or some other heater core, along with a temperature sensor. When the plastic reaches the hot end, it is heated to somewhere around 170°C to 220°C, depending on the plastic to be extruded. Once in a semiliquid state, the plastic is forced through a print nozzle—with an opening somewhere in the vicinity of 0.35 millimeters to 0.5 millimeters in diameter—before laying this thin hot extrusion onto the printbed drawing lines that outline that layer of the shape to be printed or fill that layer using some type of infill pattern.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Thermoplastextruder",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "b5a15b05-fb5e-4881-a81d-fdb548c0f3b8"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Druckbett</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Bedruckter Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "5bda91df-08f6-4ca1-97e2-3b6cdd1273e4"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "Druckbett",
+                "file": {
+                  "path": "images/image-Xd0s4NWS.jpg",
+                  "mime": "image/jpeg",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 4624,
+                  "height": 3468
+                }
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Druckbett",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "80ba91d7-db34-47dd-a0cf-e5ff125f4b38"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Das Druckbett ist die Oberfläche, auf der Ihre 3D-Drucke aufgebaut sind.</p><p>Die meisten, wenn auch nicht alle, persönlichen 3D-Drucker auf dem Markt bieten ein beheiztes Druckbett an, entweder als Standard oder als Option.</p><p>Das Druckbett wird verwendet, um Verwerfungen oder Risse von Drucken beim Abkühlen zu verhindern und eine bessere Haftung zwischen den ersten Schichten des Drucks und der Druckbettoberfläche zu schaffen.</p><p>Die Oberfläche des Druckbettes besteht oft entweder aus Glas oder Aluminium, um die Wärme besser über den Bereich zu verteilen und für eine glatte und ebene Oberfläche zu sorgen.</p><p>Um zu verhindern, dass sich das Objekt in der Mitte des Drucks von der Oberfläche abhebt, werden diese Oberflächen oft mit der einen oder anderen Art von Klebeband bedeckt, um eine Oberfläche zu schaffen, die in regelmäßigen Abständen kostengünstig zu ersetzen ist.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Body mit Printbett",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "fa4de9f0-3c4b-4d7a-96a1-cbb82b4b8802"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Endanschläge</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Endanschläge Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "79c636c3-8243-48da-a54d-adae90f18cc2"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "Endanschläge",
+                "file": {
+                  "path": "images/image-8120OdsL.jpg",
+                  "mime": "image/jpeg",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 600,
+                  "height": 413
+                }
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Endanschläge",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "7c596660-d504-4b4c-a625-172eba67f516"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Der Verfahrweg für jede Linearachse wird in der Regel durch mechanische oder optische Endanschläge begrenzt. Grundsätzlich handelt es sich um Schalter, die der Steuerelektronik des Druckers mitteilen, wenn sie in einer Bewegungsrichtung eine Grenze erreicht hat, um zu verhindern, dass die Achse ihre Grenzen überschreitet.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Endanschläge",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "9a8dc59e-7a99-4673-ab79-d6c9a47e2856"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Lineare Bewegung</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Linearbewegungstitel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "e97b6cca-4942-4f0a-9235-f9f1dbe3f2b5"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-I8ps4s6Y.jpg",
+                  "mime": "image/jpeg",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 4624,
+                  "height": 3468
+                },
+                "alt": "Lineare Bewegung"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Lineare Bewegung",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "2d00db1a-f1ec-46cb-88f6-3fac4f58a3a6"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Die Art des Linearbewegungssystems (oder die mechanische Baugruppe, die es jeder Achse ermöglicht, sich zu bewegen), die vom 3D-Drucker verwendet wird, bestimmt oft:</p><p>wie genau der Drucker ist,</p><p>wie schnell der Drucker drucken kann,</p><p>wie viel oder wie wenig Wartung benötigt wird</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Lineare Bewegung",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "7ba5cd24-ba7c-4cc1-b559-03867d5f08fd"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Rahmen</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Rahmen",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "855b7506-783e-4010-a623-79d9df743766"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "file": {
+                  "path": "images/image-9vMy2ArL.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 1097,
+                  "height": 820
+                },
+                "alt": "Rahmen"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Rahmen",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "d760bf77-92d1-4adb-9538-907eed33a6f0"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Alles zusammenhält, ist der Rahmen des 3D-Druckers.</p><p>Dieser Rahmen bildet das Strukturelement Ihres 3D-Druckers und sein Material und seine Konstruktion bestimmen viel über die endgültige Genauigkeit Ihres Druckers.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Unbenannter Text",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "8d2060ef-5f7e-4fe7-8f13-5978febe430f"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.18",
+      "metadata": {
+        "contentType": "Column",
+        "license": "U",
+        "title": "3D-Druckerteile",
+        "authors": [],
+        "changes": [],
+        "extraTitle": "3D printer parts"
+      },
+      "subContentId": "4237cdd8-be0a-4ab6-bcb5-d4aa6aa1cef5"
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "params": {
+                "text": "<h2>3D-gedruckte Modellteile und Merkmale</h2>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "18d34e4f-b334-4c27-947b-562f16685a31"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "useSeparator": "auto",
+            "content": {
+              "params": {
+                "text": "<p>Der Körper</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Der Body-Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "7b9e9e60-9dd2-4aaf-a160-9c92649c72ae"
+            }
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>Ich nenne es den Körper, aber es ist im Wesentlichen das, was Sie drucken wollten, der 3D-Druck, fertig drei dimensionale Umrisse eines Teils aus Material Ihrer Wahl.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Der Körperkörper, ich bin hilaripouijs",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "65bcd1bc-2fec-43c0-8a75-6b10fc17398c"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "Body"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Body",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "f37298ef-4cf5-4bdd-bc3c-843c77a710fb"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Floß</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Floß-Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "baee786e-83e4-4900-a6eb-a966040c3214"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "Floß"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Floß",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "dc5475db-0147-49e1-9ce9-d5088e1f5080"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">eine Kunststoffbasis, etwas breiter als die des bedruckten Objekts. Diese Basis zielt darauf ab, eine bessere Oberflächenhaftung zwischen dem bedruckten Stück und der Plattform zu erzielen, wodurch das Risiko von Ablösung und Knicken verringert wird.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Das Floß trennt das Teil manuell dank einer Mikrotextur, die den Kontakt zwischen den beiden Teilen schwächt.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Raftkörper",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "84aedf09-7ece-4b33-95c0-b335395a9edb"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "panels": [
+                  {
+                    "content": {
+                      "params": {
+                        "text": "<ul><li>Schmales, vertikales Stück;</li><li>Mehrere Teile auf derselben Plattform;</li><li>Verwendung eines hochschrumpfenden Kunststoffs, wie Abs;</li><li>Große Stücke (die Ecken großer Stücke neigen dazu, sich beim Drucken zu biegen);</li><li>Durch die Verwendung der \"Stütz\" -Funktion (die Stützstruktur mit sehr dünnen Wänden) gibt das Floß der Plattform eine solide Grifffläche;</li><li>Beschädigte Druckplattform (Plattformoberflächenfehler befinden sich auf der Unterseite des Floßes und nicht auf der Unterseite Ihres Stücks);</li><li>Falls die Plattform nur schwer perfekt nivelliert werden kann (das Floß hat dickere Schichten, so dass es langsam zerkleinert wird, um parallel zu den Bewegungsachsen der Düse zu werden). Bei einigen 3D-Druckern, wie dem MakerBot mini, ist das Floß aufgrund des Fehlens einer manuellen Nivellierung auf der Plattform obligatorisch.</li></ul>"
+                      },
+                      "library": "H5P.AdvancedText 1.1",
+                      "metadata": {
+                        "contentType": "Text",
+                        "license": "U",
+                        "title": "Unbenannter Text",
+                        "authors": [],
+                        "changes": []
+                      },
+                      "subContentId": "f623b9c8-be4b-4048-9c47-b6b680dbad33"
+                    },
+                    "title": "In den folgenden Fällen ist es besser, die Funktion „Floß“ zu aktivieren:"
+                  }
+                ],
+                "hTag": "h2"
+              },
+              "library": "H5P.Accordion 1.0",
+              "metadata": {
+                "contentType": "Accordion",
+                "license": "U",
+                "title": "In den folgenden Fällen ist es besser, die Funktion „Floß“ zu aktivieren:",
+                "authors": [],
+                "changes": [],
+                "extraTitle": "It’s better to enable the “Raft” function in the following cases:"
+              },
+              "subContentId": "dd70b6c7-622f-4b7f-8007-f4cbe8e21573"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>STÜTZE (ODER GERÜST)</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Titel der STÜTZE (oder des GERÜSTS)",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "c20fa9f3-e0c4-486f-b937-8c4c0aefee1b"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "STÜTZE (ODER GERÜST)"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "STÜTZE (ODER GERÜST)",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "d26b7550-03c3-4f9e-818a-7f7e93fa8f93"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Die Stütze ist eine abnehmbare Struktur wie das Floß, die die Teile Ihrer Objekte stützt, die wahrscheinlich zusammenbrechen werden.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Die Struktur des Trägers wird von Ihrer Slicing-Software basierend auf den Abständen zwischen den Brücken, den Ecken der Überhänge Ihres Drucks oder sogar Schichten, die in der Leere über der Plattform schweben, berechnet.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Achten Sie darauf, dass keine Unterstützung auf einem unzugänglichen Teil Ihres Objekts erzeugt wird, da Sie es von Hand oder mit einer Pinzette trennen müssen, es sei denn, Sie haben ein lösliches Material (HIPS, PVA) verwendet.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "STÜTZKÖRPER (oder GERÜST)",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "bdf9a1b7-a1a8-456a-988a-19f620db4020"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>FÜLLUNG</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Infill-Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "148d4eb9-5462-4a19-a879-978f7a2488fe"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "FÜLLUNG"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "FÜLLUNG",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "1e00352a-9587-45be-bada-7c53bb4d3edd"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p>The STL only contains the external walls of your objects: sometimes you will want them to be filled, and sometimes hollow for printing. Expressed as a percentage, the infill will be more or less dense depending on your needs. The higher the percentage, the denser the structure. Usually, these cells are shaped as hexagons or squares, but many other options may occur (MakerBot even has an infill setting using cat silhouettes). Note that you won’t gain much by completely filling your piece: a 20% fill is already quite rigid.</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Füllkörper",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "5661122d-082b-4208-b24f-937f10098258"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>SCHALE (ODER WANDSTÄRKE)</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "SCHALE (oder WANDSTÄRKE) Titel",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "f1c818a9-63a9-4456-9c03-6a548628a88a"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "SCHALE (ODER WANDSTÄRKE)"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "SCHALE (ODER WANDSTÄRKE)",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "e7699835-e8ef-40f6-b395-291f81a7770e"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Das Netz eines 3D-Modells ist nur eine mathematische Oberfläche ohne Dicke: Um ein Objekt real zu machen, sollten Sie der Wand einen Dickenwert geben.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Die \"Schale\" in FFF ist die äquivalente Anzahl von Durchgängen, die Ihre Düse erstellt, um den Umriss Ihrer Schichten zu zeichnen.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Mit einer 0,4 mm Düse und einer 2-Schalen-Einstellung beträgt Ihre Wandstärke 0,8 mm: der perfekte Kompromiss zwischen Geschwindigkeit und Robustheit.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Mit einer Software wie CURA können Sie die gewünschte Dicke für Ihre Wand auswählen und die Anzahl der benötigten Schichten automatisch anpassen.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "GEHÄUSE (oder WANDSTÄRKE) Gehäuse",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "32f6a3b2-2388-40e5-9c04-051d4a83dce3"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>SCHICHTHÖHE - OBERFLÄCHENBESCHAFFENHEIT</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "SCHICHTHÖHE - OBERFLÄCHENBESCHAFFENHEIT TITEL",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "138a86bd-be47-4492-889f-2e0f5b585512"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "SCHICHTHÖHE - OBERFLÄCHENBESCHAFFENHEIT"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "SCHICHTHÖHE - OBERFLÄCHENBESCHAFFENHEIT",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "4846b303-648c-4cb1-a296-8330b47ae3e4"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Mit FFF werden die Objekte aus Schichten im Bereich von 0,1 bis 0,3 mm erzeugt. Die bedruckten Oberflächen des Objekts können gestreift erscheinen. Dieser Treppeneffekt nimmt zu, wenn sich die Oberfläche der Horizontalen nähert.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Am stärksten betroffen sind Oberflächen, die nur leicht gekrümmt sind. Je geringer die Qualität der Z-Auflösung ist, desto sichtbarer sind die Schichten.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Die Ausrichtung des Modells in Bezug auf die Druckfläche wirkt sich nicht nur auf die Erzeugung von Stützen und den Zustand des Überhangs aus, sondern wirkt sich auch direkt auf das Erscheinungsbild des Drucks und auf die Festigkeit des Stücks aus.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "SCHICHTHÖHE - OBERFLÄCHENBESCHAFFENHEIT KÖRPER",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "1c94e0d3-638a-4839-a4a1-deb59e2aaa4e"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><strong>Solidity</strong></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "SOLIDITÄTSTITEL",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "248eb864-9d16-4ccc-a00c-29cf42fa6cbc"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "decorative": false,
+                "contentName": "Bild",
+                "expandImage": "Expand Image",
+                "minimizeImage": "Minimize Image",
+                "alt": "Solidity"
+              },
+              "library": "H5P.Image 1.1",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Solidity",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "6202ff7f-161c-4342-9815-9e9ee37e348e"
+            },
+            "useSeparator": "auto"
+          },
+          {
+            "content": {
+              "params": {
+                "text": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Sie sollten die Ausrichtung der Maserung des Stücks genau beobachten, wenn Sie ein funktionales Objekt drucken, und auf alle physischen Einschränkungen achten.</span></p><p><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">Ein schmales Prisma, das vertikal gedruckt wird, hat nur einen Bruchteil der Festigkeit der gleichen Figur, die horizontal gedruckt wird.</span></p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "FESTKÖRPER",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "3e21cfac-641d-4439-8842-dbd5d3c32e77"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.18",
+      "metadata": {
+        "contentType": "Column",
+        "license": "U",
+        "title": "3D-gedruckte Modellteile und Merkmale",
+        "authors": [],
+        "changes": [],
+        "extraTitle": "3D printed model parts and characteristics"
+      },
+      "subContentId": "1ab0d15b-0ac6-42d8-8cb3-57f31dde90f5"
+    },
+    {
+      "params": {
+        "content": [
+          {
+            "content": {
+              "params": {
+                "text": "<p>Andreas Gebhardt, Julia Kessler, Laura Thurn -<a href=\"https://www.hanser-elibrary.com/doi/epdf/10.3139/9781569907030\" rel=\"noopener noreferrer\" target=\"_blank\">3D-Druck: Additive Fertigung verstehen</a>(abgerufen am 11.03.2025)</p><p><a href=\"https://link.springer.com/book/10.1007/978-3-030-56127-7#author-0-0\">Ian Gibson</a>,<a href=\"https://link.springer.com/book/10.1007/978-3-030-56127-7#author-0-1\">David Rosen</a>,<a href=\"https://link.springer.com/book/10.1007/978-3-030-56127-7#author-0-2\">Brent Stucker</a>,<a href=\"https://link.springer.com/book/10.1007/978-3-030-56127-7#author-0-3\">Mahyar Khorasani</a>-<a href=\"https://link.springer.com/book/10.1007/978-3-030-56127-7\" rel=\"noopener noreferrer\" target=\"_blank\">Additive Manufacturing Technologies</a>(abgerufen am 11.03.2025)</p><p><a href=\"https://learning.oreilly.com/search/?query=author%3A%22Brian%20Evans%22&amp;sort=relevance&amp;highlight=true\">Brian Evans</a>-<a href=\"https://learning.oreilly.com/library/view/practical-3d-printers/9781430243922/\" rel=\"noopener noreferrer\" target=\"_blank\">Praktische 3D-Drucker: Die Wissenschaft und Kunst des 3D-Drucks</a>(abgerufen am 11.03.2025)</p><p><a href=\"https://www.3devo.com/blog/guide-fdm-printable-plastics-3d-printing-filament\" rel=\"noopener noreferrer\" target=\"_blank\"><span style=\"background-color:rgb(255,255,255);color:rgb(51,71,91)\">Ein Leitfaden für FDM Printale-Kunststoffe und 3D-Druckfilamente</span></a>(abgerufen am 11.03.2025)</p><p><a href=\"https://learning.oreilly.com/search/?query=author%3A%22Samuel%20N.%20Bernier%22&amp;sort=relevance&amp;highlight=true\">Samuel N. Bernier</a><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">,</span><a href=\"https://learning.oreilly.com/search/?query=author%3A%22Bertier%20Luyt%22&amp;sort=relevance&amp;highlight=true\">Bertier Luyt</a><span style=\"background-color:rgb(255,255,255);color:rgb(61,59,73)\">,</span><a href=\"https://learning.oreilly.com/search/?query=author%3A%22Tatiana%20Reinhard%22&amp;sort=relevance&amp;highlight=true\">Tatiana Reinhard</a>-<a href=\"https://learning.oreilly.com/library/view/design-for-3d/9781457187353/\" rel=\"noopener noreferrer\" target=\"_blank\">Design für den 3D-Druck</a>(abgerufen am 12.03.2025)</p><p>Schmelzfadenherstellung (FFF)<a href=\"https://en.wikipedia.org/wiki/Fused_filament_fabrication#Fused_deposition_modeling\" rel=\"noopener noreferrer\" target=\"_blank\">Wikipedia</a>(abgerufen am 11.03.2025)</p>"
+              },
+              "library": "H5P.AdvancedText 1.1",
+              "metadata": {
+                "contentType": "Text",
+                "license": "U",
+                "title": "Ressourcen",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "f5a68a0a-36e3-4145-a39a-2a7aef7c54ab"
+            },
+            "useSeparator": "auto"
+          }
+        ]
+      },
+      "library": "H5P.Column 1.18",
+      "metadata": {
+        "contentType": "Column",
+        "license": "U",
+        "title": "Ressourcen und weitere Lektüre",
+        "authors": [],
+        "changes": [],
+        "extraTitle": "Resourses and further reading"
+      },
+      "subContentId": "5397b1d4-9cec-49a3-ad62-a272fdc40525"
+    }
+  ],
+  "behaviour": {
+    "baseColor": "#1768c4",
+    "defaultTableOfContents": true,
+    "progressIndicators": true,
+    "progressAuto": true,
+    "displaySummary": true,
+    "enableRetry": true
+  },
+  "read": "Read",
+  "displayTOC": "Display 'Table of contents'",
+  "hideTOC": "Hide 'Table of contents'",
+  "nextPage": "Next page",
+  "previousPage": "Previous page",
+  "chapterCompleted": "Page completed!",
+  "partCompleted": "@pages of @total completed",
+  "incompleteChapter": "Incomplete page",
+  "navigateToTop": "Navigate to the top",
+  "markAsFinished": "I have finished this page",
+  "fullscreen": "Fullscreen",
+  "exitFullscreen": "Exit fullscreen",
+  "bookProgressSubtext": "@count of @total pages",
+  "interactionsProgressSubtext": "@count of @total interactions",
+  "submitReport": "Submit Report",
+  "restartLabel": "Restart",
+  "summaryHeader": "Summary",
+  "allInteractions": "All interactions",
+  "unansweredInteractions": "Unanswered interactions",
+  "scoreText": "@score / @maxscore",
+  "leftOutOfTotalCompleted": "@left of @max interactions completed",
+  "noInteractions": "No interactions",
+  "score": "Score",
+  "summaryAndSubmit": "Summary &amp; submit",
+  "noChapterInteractionBoldText": "You have not interacted with any pages.",
+  "noChapterInteractionText": "You have to interact with at least one page before you can see the summary.",
+  "yourAnswersAreSubmittedForReview": "Your answers are submitted for review!",
+  "bookProgress": "Book progress",
+  "interactionsProgress": "Interactions progress",
+  "totalScoreLabel": "Total score",
+  "a11y": {
+    "progress": "Page @page of @total.",
+    "menu": "Toggle navigation menu"
+  }
+}
